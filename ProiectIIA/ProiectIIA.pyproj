@@ -5,13 +5,15 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2924a872-3803-42e4-a027-363ff46cf1c3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ProiectIIA.py</StartupFile>
+    <StartupFile>MyCode\ProiectIIA.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>ProiectIIA</Name>
     <RootNamespace>ProiectIIA</RootNamespace>
+    <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +24,67 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ProiectIIA.py" />
+    <Compile Include="agents.py" />
+    <Compile Include="canvas.py" />
+    <Compile Include="csp.py" />
+    <Compile Include="games.py" />
+    <Compile Include="grid.py" />
+    <Compile Include="ipyviews.py" />
+    <Compile Include="learning.py" />
+    <Compile Include="logic.py" />
+    <Compile Include="mdp.py" />
+    <Compile Include="MyCode\ProiectIIA.py" />
+    <Compile Include="nlp.py" />
+    <Compile Include="planning.py" />
+    <Compile Include="probability.py" />
+    <Compile Include="rl.py" />
+    <Compile Include="search.py" />
+    <Compile Include="tests\test_csp.py" />
+    <Compile Include="tests\test_games.py" />
+    <Compile Include="tests\test_grid.py" />
+    <Compile Include="tests\test_learning.py" />
+    <Compile Include="tests\test_logic.py" />
+    <Compile Include="tests\test_mdp.py" />
+    <Compile Include="tests\test_nlp.py" />
+    <Compile Include="tests\test_planning.py" />
+    <Compile Include="tests\test_probability.py" />
+    <Compile Include="tests\test_search.py" />
+    <Compile Include="tests\test_text.py" />
+    <Compile Include="tests\test_utils.py" />
+    <Compile Include="tests\__init__.py" />
+    <Compile Include="text.py" />
+    <Compile Include="utils.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="aima-data\" />
+    <Folder Include="images\" />
+    <Folder Include="js\" />
+    <Folder Include="MyCode\" />
+    <Folder Include="tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\aima3e_big.jpg" />
+    <Content Include="images\aima_logo.png" />
+    <Content Include="images\bayesnet.png" />
+    <Content Include="images\dirt.svg" />
+    <Content Include="images\dirt05-icon.jpg" />
+    <Content Include="images\fig_5_2.svg" />
+    <Content Include="images\IMAGE-CREDITS" />
+    <Content Include="images\knn_plot.png" />
+    <Content Include="images\makefile" />
+    <Content Include="images\mdp-a.png" />
+    <Content Include="images\mdp.png" />
+    <Content Include="images\search_animal.svg" />
+    <Content Include="images\sprinklernet.jpg" />
+    <Content Include="images\vacuum-icon.jpg" />
+    <Content Include="images\vacuum.svg" />
+    <Content Include="images\wall-icon.jpg" />
+    <Content Include="js\canvas.js" />
+    <Content Include="js\continuousworld.js" />
+    <Content Include="js\gridworld.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
