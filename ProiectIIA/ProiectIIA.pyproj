@@ -82,6 +82,7 @@
     <Content Include="js\canvas.js" />
     <Content Include="js\continuousworld.js" />
     <Content Include="js\gridworld.js" />
+    <Content Include="MyCode\DefaultInput.txt" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\3.5" />

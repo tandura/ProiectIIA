@@ -1,0 +1,37 @@
+Pacientul prezinta simptomele: poliuria, polidipsia, polifagia.
+Pacientul prezinta urmatorii factori de risc: Dieta bogata in zahar, Stilul de viata sedentar.
+Teste: NONE.
+Diagnostic: Diabet.
+
+#IGNORE#
+
+ORDINEA trebuie respectata: simptome, riscuri, teste, diagnostic.
+Daca nu au valori anumite campuri, NONE se va pune in locul lor.
+
+Valori care vor fi luate in considerare:
+
+	Simptome: poliuria (urinare frecventa)
+			  polidipsia (sete exagerata)
+			  polifagia (senzatie crescuta de foame)
+			  scadere in greutate
+
+			  situatii repetate de vedere inceto?ata
+			  mâncarime
+			  deteriorarea vaselor sangvine
+			  infectii vaginale recurente
+			  stare accentuata de oboseala
+
+	Factori de risc: Dieta bogata in zahar
+					 Stilul de viata sedentar
+					 Greutate mica la nastere
+					 Vârsta
+					 Antecedentele din familie
+
+	Teste: FPG value
+		   A1C value
+		   OGTT value
+		   RPG value
+
+	Diagnostic: Prediabetes
+				Diabet
+				Nu are diabet
